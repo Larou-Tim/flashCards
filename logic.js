@@ -26,23 +26,24 @@ function BasicCard(front, back) {
 }
 
 function ClozeCard(text, cloze) {
-    this.fullText = text;
-    this.cloze = cloze;
-    this.partial = this.fullText.replace(this.cloze, "...");
+   
+        this.fullText = text;
+        this.cloze = cloze;
+        this.partial = this.fullText.replace(this.cloze, "...");
 }
 
-var firstPresident = new BasicCard(
-    "Who was the first president of the United States?", "George Washington"
-);
+// var firstPresident = new BasicCard(
+//     "Who was the first president of the United States?", "George Washington"
+// );
 
-// firstPresident.askQuestion();
+// // firstPresident.askQuestion();
+
+// // var firstPresidentCloze = new ClozeCard(
+// //     "George Washington was the first president of the United States.", "George Washington");
 
 // var firstPresidentCloze = new ClozeCard(
 //     "George Washington was the first president of the United States.", "George Washington");
 
-var firstPresidentCloze = new ClozeCard(
-    "George Washington was the first president of the United States.", "George Washington");
 
-
-console.log(firstPresidentCloze.partial);
+// console.log(firstPresidentCloze.partial);
 
