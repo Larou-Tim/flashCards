@@ -2,7 +2,6 @@
 
 var mysql = require("mysql");
 
-
 function sqlHandler() {
     var mysql = require("mysql");
 

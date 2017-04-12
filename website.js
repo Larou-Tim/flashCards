@@ -11,6 +11,4 @@ function ClozeCard(text, cloze) {
 }
 
 
-
-
 selectQuery();
